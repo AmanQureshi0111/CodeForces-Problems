@@ -20,6 +20,8 @@ void solve() {
   }
   ll ans = 0;
   for (int k = 1; k * k <= n; k++) {
+    if (n % k != 0)
+      continue;
     int first = k;
     int second = n / k;
     ll maxi = 0LL;
