@@ -14,7 +14,7 @@ void solve(){
     for(int i=0;i<n;i++){
         ll num;
         cin>>num;
-        mp[num]++;
+        mp[num]++; 
     }
     for(auto &it:mp){
         ll num=it.first;
